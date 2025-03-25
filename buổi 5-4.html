@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background: rgb(213, 128, 236);
+            height: 100px;
+            width: 100%;
+        }
+        .menu {
+            background: black;
+            color: white;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+        .container {
+            width: 100%;
+            overflow: hidden;
+        }
+        .left {
+            width: 70%;
+            float: left;
+            padding: 20px;
+            background: white;
+        }
+        .left h2 {
+            color: rgb(253, 112, 206);
+        }
+        .right {
+            width: 30%;
+            float: left;
+            background: rgb(221, 132, 232);
+            padding: 10px;
+        }
+        .right .right-top {
+            width: 100%;
+            background: hsl(307, 85%, 77%);
+            color: white;
+            padding: 20px;
+            margin-bottom: 5px;
+            border: 1px solid #f9f9f9;
+            border-radius: 5px;
+        }
+        .right .right-bottom {
+            display: flex;
+            gap: 5px;
+        }
+        .right .right-bottom div {
+            background: rgb(250, 155, 242);
+            color: white;
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Feedback</a>
+        <a href="#">FAQs</a>
+        <a href="#">My Account</a>
+        <a href="#" style="float:right;">English</a>
+        <a href="#" style="float:right;">Tiếng Việt</a>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <h2>TRANG CHỦ</h2>
+            <img src="https://donghoolevs.vn/wp-content/uploads/2019/12/z3754339998509_f693e7e3b2af8d5ce5207ba63f382668.jpg" alt="Đồng hồ" width="300">
+        </div>
+        <div class="right">
+            <div class="right-top">RIGHT-TOP</div>
+            <div class="right-bottom">
+                <div>RIGHT-LEFT</div>
+                <div>RIGHT-RIGHT</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
